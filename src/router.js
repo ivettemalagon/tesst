@@ -1,3 +1,4 @@
+import Vue from 'vue'
 import vueRouter from 'vue-router'
 import User from './components/User.vue'
 import UserAuth from './components/UserAuth.vue'
@@ -16,7 +17,7 @@ const router = new vueRouter({
         component: App
         },
         {
-            path: '/user/username',
+            path: '/user/:username',
             name: "user",
             component: User
         },
