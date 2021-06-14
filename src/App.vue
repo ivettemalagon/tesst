@@ -48,9 +48,18 @@
 
 
 import vueRouter from 'vue-router'
+import User from './components/User'
+import UserAuth from './components/UserAuth'
+import Inventory from './components/Inventory'
+
 
 export default {
   name: 'App',
+  components: {
+    User,    
+    UserAuth,
+    Inventory,
+  },
 
   data: function(){
       return{ 
