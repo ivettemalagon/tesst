@@ -1,5 +1,5 @@
 //import vueRouter from 'vue-router'
-import App from './App/Index'
+import App from './App'
 import User from './components/User/index'
 import UserAuth from './components/UserAuth/index'
 import Inventory from './components/Inventory/index'
