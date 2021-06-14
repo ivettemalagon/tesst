@@ -1,11 +1,10 @@
-import Vue from 'vue'
-import vueRouter from 'vue-router'
-import User from './components/User.'
-import UserAuth from './components/UserAuth'
-import Inventory from './components/Inventory'
-import Search from './components/Search'
-import Modify from './components/Modify'
-import App from './App'
+//import vueRouter from 'vue-router'
+import User from './components/User/index'
+import UserAuth from './components/UserAuth/index'
+import Inventory from './components/Inventory/index'
+import Search from './components/Search/index'
+import Modify from './components/Modify/index'
+import App from './App/index'
 
 const router = new vueRouter({
     mode: 'history',
