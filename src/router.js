@@ -16,7 +16,7 @@ const router = new vueRouter({
         component: App
         },
         {
-            path: '/user/:username',
+            path: '/user/username',
             name: "user",
             component: User
         },
